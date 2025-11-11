@@ -1,21 +1,29 @@
-<h1 align="center" style="color:#196c2e;">Hi 👋, ich bin Sonja</h1>
-<h3 align="center" style="color:#033a16;">Full-Stack Webentwicklerin & Unternehmerin</h3>
+<h1 align="center" style="color:#196c2e;">Hey there 👋</h1>
+<h3 align="center" style="color:#033a16;">I'm Sonja — Web Developer from Germany 🇩🇪</h3>
 
 ---
 
-🌱 **Aktuell arbeite ich an:**  
-• mehreren Telegram-Bots (z. B. Statistik- und Utility-Bots)  
-• internen Tools für mein Webentwicklungsunternehmen  
-
-💡 **Technologien:**  
-`JavaScript` • `TypeScript` • `Python` • `Node.js` • `Express` • `React` • `Next.js`  
-`MongoDB` • `PostgreSQL` • `Docker` • `GitHub Actions`
-
-💬 **Fun Fact:**  
-Ich habe mein erstes Projekt mit 10 Jahren gehackt – und es hat sogar ein Radiosender gebracht 😄
+### 💻 About Me  
+I build things for the web — sometimes tools, sometimes experiments, always something new.  
+Currently learning, improving, and occasionally breaking things (on purpose 😉).
 
 ---
 
+### 🧠 Tech Stack  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,django,java,git,github,vscode" />
+</p>
+
+---
+
+### 📊 Most Used Languages  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stkirchberg&layout=compact&theme=github_dark&title_color=196c2e" alt="Top Languages" />
+</p>
+
+---
+
+### 🔥 GitHub Stats  
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=stkirchberg&theme=dark&ring=196c2e&fire=196c2e&currStreakLabel=196c2e" alt="GitHub Streak" />
 </p>
@@ -26,5 +34,18 @@ Ich habe mein erstes Projekt mit 10 Jahren gehackt – und es hat sogar ein Radi
 
 ---
 
-📫 **Kontakt:**  
-[GitHub](https://github.com/stkirchberg) • [Telegram](https://t.me/dein_username) • [Website](https://deine-domain.de)
+### 📫 Contact  
+<p align="center">
+  <a href="https://t.me/stk_22_05" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-196c2e?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  </a>
+  <a href="mailto:s.t.kirchberg@murena.io">
+    <img src="https://img.shields.io/badge/Email-033a16?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+---
+
+<sub><i>“Keep it simple. Make it work. Then make it cool.”</i></sub>
+
+
