@@ -4,7 +4,7 @@
 ---
 
 ### 💻 About Me  
-I build things... Sometimes tools, sometimes experiments - whatever I have in my head.
+I build things... Sometimes tools, sometimes experiments - whatever I have in my head.<br>
 Currently learning, improving, and occasionally breaking things.
 
 ---
