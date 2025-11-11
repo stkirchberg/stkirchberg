@@ -4,7 +4,7 @@
 ---
 
 ### 💻 About Me  
-I build things for the web — sometimes tools, sometimes experiments, always something new.  
+I build things... Sometimes tools, sometimes experiments - whatever I have in my head.
 Currently learning, improving, and occasionally breaking things.
 
 ---
