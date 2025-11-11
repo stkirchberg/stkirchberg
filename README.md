@@ -5,7 +5,7 @@
 
 ### 💻 About Me  
 I build things for the web — sometimes tools, sometimes experiments, always something new.  
-Currently learning, improving, and occasionally breaking things (on purpose 😉).
+Currently learning, improving, and occasionally breaking things.
 
 ---
 
@@ -46,6 +46,6 @@ Currently learning, improving, and occasionally breaking things (on purpose 😉
 
 ---
 
-<sub><i>“Keep it simple. Make it work. Then make it cool.”</i></sub>
+<sub><i>“The freedom of the individual is humanity's most important treasure.”</i></sub>
 
 
