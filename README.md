@@ -1,5 +1,5 @@
 <h1 align="center" style="color:#196c2e;">Hey there 👋</h1>
-<h3 align="center" style="color:#033a16;">I'm Sonja — Web Developer from Germany 🇩🇪</h3>
+<h3 align="center" style="color:#033a16;">I'm Sonja — Developer from Germany</h3>
 
 ---
 
