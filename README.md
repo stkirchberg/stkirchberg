@@ -1,11 +1,3 @@
-<h1 align="center" style="color:#196c2e;">Hey there 👋</h1>
-<h3 align="center" style="color:#033a16;">I'm Sonja — Developer from Germany</h3>
-
----
-
-### 💻 About Me  
-I build things... Sometimes tools, sometimes experiments - whatever I have in my head.<br>
-Currently learning, improving, and occasionally breaking things.
 
 ---
 
