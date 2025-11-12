@@ -17,7 +17,7 @@
 
 ### 🔥 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=stkirchberg&theme=dark&ring=196c2e&fire=196c2e&currStreakLabel=196c2e" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=stkirchberg&theme=dark&ring=196c2e&fire=196c2e&currStreakLabel=196c2e" alt="GitHub Streak" />
 </p>
 
 <p align="center">
