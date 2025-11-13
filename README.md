@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://img.shields.io/github/followers/stkirchberg?label=Followers&style=for-the-badge&color=196c2e&logo=github" alt="GitHub Followers" />
+  <img src="https://komarev.com/ghpvc/?username=stkirchberg&label=Profile+Views&color=196c2e&style=for-the-badge" alt="Profile Views" />
+</p>
 
 ---
 
