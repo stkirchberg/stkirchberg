@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/github/followers/stkirchberg?label=Followers&style=for-the-badge&color=196c2e&logo=github" alt="GitHub Followers" />
-  <img src="https://komarev.com/ghpvc/?username=stkirchberg&label=Profile+Views&color=196c2e&style=for-the-badge" alt="Profile Views" />
-</p>
 
 ---
 
@@ -26,6 +22,13 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=stkirchberg&show_icons=true&theme=github_dark&title_color=196c2e&icon_color=196c2e" alt="GitHub Stats" />
+</p>
+
+<br><br>
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/stkirchberg?label=Followers&style=for-the-badge&color=196c2e&logo=github" alt="GitHub Followers" />
+  <img src="https://komarev.com/ghpvc/?username=stkirchberg&label=Profile+Views&color=196c2e&style=for-the-badge" alt="Profile Views" />
 </p>
 
 ---
