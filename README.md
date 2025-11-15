@@ -46,5 +46,3 @@
 ---
 
 <sub><i>“The freedom of the individual is humanity's most important treasure.”</i></sub>
-
-
