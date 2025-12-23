@@ -1,21 +1,21 @@
 
 ---
 
-### 🧠 Tech Stack  
+### Tech Stack  
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,angular,python,django,java,git,github,vscode" />
 </p>
 
 ---
 
-### 📊 Most Used Languages  
+### Most Used Languages  
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stkirchberg&layout=compact&theme=github_dark&title_color=196c2e&token=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" alt="Top Languages" />
 </p>
 
 ---
 
-### 🔥 GitHub Stats  
+### GitHub Stats  
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=stkirchberg&theme=dark&ring=196c2e&fire=196c2e&currStreakLabel=196c2e" alt="GitHub Streak" />
 </p>
@@ -33,7 +33,7 @@
 
 ---
 
-### 📫 Contact  
+### Contact  
 <p align="center">
   <a href="https://t.me/stk_22_05" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-196c2e?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
