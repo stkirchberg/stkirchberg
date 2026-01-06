@@ -10,7 +10,7 @@
 
 ### Most Used Languages  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stkirchberg&layout=compact&theme=github_dark&title_color=196c2e&token=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" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stkirchberg&layout=compact&theme=github_dark&title_color=196c2e" alt="Top Languages" />
 </p>
 
 ---
