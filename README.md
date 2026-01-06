@@ -16,6 +16,9 @@
 ---
 
 ### GitHub Stats  
+
+<img src="github-metrics.svg" alt="GitHub Metrics" />
+
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=stkirchberg&theme=dark&ring=196c2e&fire=196c2e&currStreakLabel=196c2e" alt="GitHub Streak" />
 </p>
