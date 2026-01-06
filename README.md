@@ -10,28 +10,18 @@
 
 ### Most Used Languages  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stkirchberg&layout=compact&theme=github_dark&title_color=196c2e" alt="Top Languages" />
+  <img src="https://github-readme-stats-navy-theta-25.vercel.app/api/top-langs/?username=stkirchberg&layout=compact&theme=github_dark&title_color=196c2e" alt="Top Languages" />
 </p>
 
 ---
 
 ### GitHub Stats  
-
-<img src="github-metrics.svg" alt="GitHub Metrics" />
-
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=stkirchberg&theme=dark&ring=196c2e&fire=196c2e&currStreakLabel=196c2e" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=stkirchberg&show_icons=true&theme=github_dark&title_color=196c2e&icon_color=196c2e" alt="GitHub Stats" />
-</p>
-
-<br><br>
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/stkirchberg?label=Followers&style=for-the-badge&color=196c2e&logo=github" alt="GitHub Followers" />
-  <img src="https://komarev.com/ghpvc/?username=stkirchberg&label=Profile+Views&color=196c2e&style=for-the-badge" alt="Profile Views" />
+  <img src="https://github-readme-stats-navy-theta-25.vercel.app/api?username=stkirchberg&show_icons=true&theme=github_dark&title_color=196c2e&icon_color=196c2e" alt="GitHub Stats" />
 </p>
 
 ---
