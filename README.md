@@ -3,7 +3,7 @@
 
 ### Tech Stack  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,flask,django,java,c,git,github,vscode,arch" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,flask,django,java,c,c++,git,github,vscode,arch" />
 </p>
 
 ---
