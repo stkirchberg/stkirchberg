@@ -10,7 +10,7 @@
 
 ### Most Used Languages  
 <p align="center">
-  <img src="https://github-readme-stats-navy-theta-25.vercel.app/api/top-langs/?username=stkirchber&layout=compact&theme=github_dark&title_color=196c2e" alt="Top Languages" />
+  <img src="https://github-readme-stats-navy-theta-25.vercel.app/api/top-langs/?username=stkirchberg&layout=compact&theme=github_dark&title_color=196c2e" alt="Top Languages" />
 </p>
 
 ---
