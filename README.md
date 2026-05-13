@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-navy-theta-25.vercel.app/api?username=stkirchberg&show_icons=true&theme=github_dark&title_color=196c2e&icon_color=196c2e" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-navy-theta-25.vercel.app/api?username=stkirchberg&show_icons=true&theme=github_dark&title_color=195c2e&icon_color=196c2e" alt="GitHub Stats" />
 </p>
 
 ---
