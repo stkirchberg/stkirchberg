@@ -35,7 +35,7 @@
 
 ### Contact  
 <p align="center">
-  <a href="https://t.me/stk_25519" target="_blank">
+  <a href="https://telegram.me/stk25519" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-196c2e?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
   <a href="mailto:s.t.kirchberg@murena.io">
