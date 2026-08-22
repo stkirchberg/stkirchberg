@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://stkirchberg.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/PORTFOLIO-VIEW%20WEBSITE%20%E2%86%92-195c2e?style=for-the-badge&logo=brave&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-VIEW%20WEBSITE%20%E2%86%92-194c2e?style=for-the-badge&logo=brave&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
