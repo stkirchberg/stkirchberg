@@ -24,7 +24,7 @@
 
 ### GitHub Stats  
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=stkirchberg&theme=github_dark&fire=196c2e&currStreakLabel=196c2e" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=stkirchberg&theme=github_dark&fire=196c2e&currStreakLabel=00ff00" alt="GitHub Streak" />
 </p>
 
 <p align="center">
