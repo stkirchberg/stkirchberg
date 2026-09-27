@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omni Medal Search - Elite Finder</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #e2e8f0; }
+    </style>
+</head>
+<body class="min-h-screen p-8">
+    <div id="app" class="max-w-5xl mx-auto space-y-8">
+        
+        <header class="border-b border-slate-700 pb-4 flex justify-between items-end">
+            <div>
+                <h1 class="text-4xl font-bold text-blue-400">Omni Medal Search</h1>
+                <p class="text-slate-400 mt-2">Finde die Legenden: IMO, ICPC, IMC Kombinations-Suche</p>
+            </div>
+            <div class="space-x-2">
+                <button @click="triggerImport('imo')" class="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded text-sm">IMO Importieren</button>
+                <button @click="triggerImport('icpc')" class="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded text-sm">ICPC Importieren</button>
+                <button @click="triggerImport('imc')" class="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded text-sm">IMC Importieren</button>
+            </div>
+        </header>
+
+        <div class="bg-slate-800 p-6 rounded-lg shadow-lg">
+            <h2 class="text-xl font-semibold mb-4 text-blue-300">Suchkriterien (UND-Verknüpfung)</h2>
+            
+            <div class="flex space-x-4 mb-4">
+                <select v-model="newFilter.competition" class="bg-slate-900 border border-slate-600 rounded p-2 text-white flex-1">
+                    <option value="" disabled>Wettbewerb wählen</option>
+                    <option value="IMO">IMO (Mathe Olympiade)</option>
+                    <option value="ICPC">ICPC (Programmieren)</option>
+                    <option value="IMC">IMC (Uni Mathe)</option>
+                </select>
+
+                <select v-model="newFilter.medal" class="bg-slate-900 border border-slate-600 rounded p-2 text-white flex-1">
+                    <option value="" disabled>Medaille wählen</option>
+                    <option value="Gold">Gold Medal / First Prize</option>
+                    <option value="Silver">Silver Medal / Second Prize</option>
+                    <option value="Bronze">Bronze Medal</option>
+                </select>
+
+                <button @click="addFilter" class="bg-blue-600 hover:bg-blue-500 px-6 py-2 rounded font-bold transition">Hinzufügen</button>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+                <div v-for="(filter, index) in filters" :key="index" class="bg-blue-900 text-blue-100 px-3 py-1 rounded-full flex items-center shadow">
+                    {{ filter.competition }} - {{ filter.medal }}
+                    <button @click="removeFilter(index)" class="ml-2 text-red-400 hover:text-red-300 font-bold">×</button>
+                </div>
+            </div>
+
+            <button @click="search" class="w-full bg-emerald-600 hover:bg-emerald-500 py-3 rounded font-bold text-lg shadow-lg transition">Suchen</button>
+        </div>
+
+        <!-- Ergebnisse -->
+        <div v-if="results.length > 0" class="bg-slate-800 rounded-lg shadow-lg overflow-hidden">
+            <table class="w-full text-left">
+                <thead class="bg-slate-900 border-b border-slate-700">
+                    <tr>
+                        <th class="p-4">Name</th>
+                        <th class="p-4">Land</th>
+                        <th class="p-4">Zugeordnete Errungenschaften</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-700">
+                    <tr v-for="person in results" :key="person.id" class="hover:bg-slate-750 transition">
+                        <td class="p-4 font-bold text-white">{{ person.canonical_name }}</td>
+                        <td class="p-4">{{ person.country || 'Unbekannt' }}</td>
+                        <td class="p-4 text-sm text-slate-300">{{ person.all_achievements }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div v-else-if="hasSearched" class="text-center p-8 text-slate-400 bg-slate-800 rounded-lg">
+            Keine Person gefunden, die exakt diese Kombination besitzt.
+        </div>
+
+    </div>
+
+    <script>
+        const { createApp, ref } = Vue;
+
+        createApp({
+            setup() {
+                const filters = ref([]);
+                const newFilter = ref({ competition: '', medal: '' });
+                const results = ref([]);
+                const hasSearched = ref(false);
+
+                const addFilter = () => {
+                    if (newFilter.value.competition && newFilter.value.medal) {
+                        filters.value.push({ ...newFilter.value });
+                        newFilter.value = { competition: '', medal: '' };
+                    }
+                };
+
+                const removeFilter = (index) => {
+                    filters.value.splice(index, 1);
+                };
+
+                const search = async () => {
+                    if (filters.value.length === 0) return;
+                    hasSearched.value = true;
+                    const res = await fetch('/api/search', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ filters: filters.value })
+                    });
+                    results.value = await res.json();
+                };
+
+                const triggerImport = async (comp) => {
+                    const res = await fetch(`/api/import/${comp}`, { method: 'POST' });
+                    const data = await res.json();
+                    alert(data.message);
+                };
+
+                return { filters, newFilter, results, hasSearched, addFilter, removeFilter, search, triggerImport }
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
